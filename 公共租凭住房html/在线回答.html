@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>互联网样板</title>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="layoutmode" content="standard">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="renderer" content="webkit">
+
+		<!--uc浏览器判断到页面上文字居多时，会自动放大字体优化移动用户体验。添加以下头部可以禁用掉该优化-->
+		<meta name="wap-font-scale" content="no">
+
+		<meta content="telephone=no" name="format-detection">
+		<meta http-equiv="Pragma" content="no-cache">
+		
+		<script type="text/javascript">
+
+			//html root的字体计算应该放在最前面，这样计算就不会有误差了/
+			//2016.3.23 wjq update 之所以要加个判断返回一个20.5，是因为当用户在谷歌等浏览器直接输入手机端网站网址时，如果用户设置模块自定义样式的高度比较小，由于这时候的clientWidth为1920px，及返回的_htmlFontSize为40，这时候就会使模块太小，展示不完全，因此先取一个较为准确的值去展示。Mobi.resetHtmlFontSize()顺便也加了
+			function fontAuto(width){//width表示效果图的宽度
+				var screenWidth=document.documentElement.clientWidth;//屏幕的宽度
+				//document.documentElement表示html标签
+				if(screenWidth>=width)//当设备的宽度大于等于效果图的宽度
+				{
+					document.documentElement.style.fontSize="625%";
+				}
+				else{//当设备的宽度小于效果图的宽度
+					document.documentElement.style.fontSize=(625*screenWidth/width)+"%";
+				}
+				
+				}
+				
+				fontAuto(750);//网页加载的时候触发
+				
+				window.onresize=function(){//当网页宽度发生变化时触发函数
+					fontAuto(750);
+				}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+	
+	</head>
+	<body style=" background: #ffaa5f;">
+		<div class="box">
+			<ul class="zx">
+				<li>
+					<div class="zx1">
+						<img src="images/zx3.jpg"/>
+						<span>郭斌</span>
+						<i>2017-09-14</i>
+					</div>
+					<div class="zx2">
+						<div class="zx2_1">
+							<img src="images/zx4.png"/><p>关于申请材料中一项是需要提供区国土局无批地建房证明，区国土说无法开具，请问怎么办！！</p>
+						</div>
+						<div class="zx2_2">
+							<img src="images/zx5.png"/><p class="red">暂无回复</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="zx1">
+						<img src="images/zx3.jpg"/>
+						<span>郭斌</span>
+						<i>2017-09-14</i>
+					</div>
+					<div class="zx2">
+						<div class="zx2_1">
+							<img src="images/zx4.png"/><p>关于申请材料中一项是需要提供区国土局无批地建房证明，区国土说无法开具，请问怎么办！！</p>
+						</div>
+						<div class="zx2_2">
+							<img src="images/zx5.png"/><p>你好，我中心工作人员已与你取得联系，沟通解决相关事宜。</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="zx1">
+						<img src="images/zx3.jpg"/>
+						<span>郭斌</span>
+						<i>2017-09-14</i>
+					</div>
+					<div class="zx2">
+						<div class="zx2_1">
+							<img src="images/zx4.png"/><p>我在宁波工作有7年，外来务工人员，现在在宁波市邮政局工作。我高中学历，社保7年，宁波大市。因家庭比较困难，外面高昂的房租难以承担，为了一个安稳的住处，也为了你安居乐业，请问我可以申请海曙公租房吗。</p>
+						</div>
+						<div class="zx2_2">
+							<img src="images/zx5.png"/><p>你好，我中心工作人员已与你取得联系，详细解释相关政策。</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			
+			
+			
+			<a href="##1" class="zx3">
+				问
+			</a>
+		</div>
+		
+		
+	</body>
+</html>

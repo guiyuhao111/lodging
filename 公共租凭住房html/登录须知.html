@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>互联网样板</title>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-transform">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="layoutmode" content="standard">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="renderer" content="webkit">
+
+		<!--uc浏览器判断到页面上文字居多时，会自动放大字体优化移动用户体验。添加以下头部可以禁用掉该优化-->
+		<meta name="wap-font-scale" content="no">
+
+		<meta content="telephone=no" name="format-detection">
+		<meta http-equiv="Pragma" content="no-cache">
+		
+		<script type="text/javascript">
+
+			//html root的字体计算应该放在最前面，这样计算就不会有误差了/
+			//2016.3.23 wjq update 之所以要加个判断返回一个20.5，是因为当用户在谷歌等浏览器直接输入手机端网站网址时，如果用户设置模块自定义样式的高度比较小，由于这时候的clientWidth为1920px，及返回的_htmlFontSize为40，这时候就会使模块太小，展示不完全，因此先取一个较为准确的值去展示。Mobi.resetHtmlFontSize()顺便也加了
+			function fontAuto(width){//width表示效果图的宽度
+				var screenWidth=document.documentElement.clientWidth;//屏幕的宽度
+				//document.documentElement表示html标签
+				if(screenWidth>=width)//当设备的宽度大于等于效果图的宽度
+				{
+					document.documentElement.style.fontSize="625%";
+				}
+				else{//当设备的宽度小于效果图的宽度
+					document.documentElement.style.fontSize=(625*screenWidth/width)+"%";
+				}
+				
+				}
+				
+				fontAuto(750);//网页加载的时候触发
+				
+				window.onresize=function(){//当网页宽度发生变化时触发函数
+					fontAuto(750);
+				}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+	
+	</head>
+	<body style=" background: #f5f9fc;">
+		<div class="box" style=" background: url(images/dlx1.jpg) no-repeat 0 0/100%;padding-top: 1.23rem;">
+			<div class="dlx">
+				一、政策依据<br />
+			　　1、《宁波市市区廉租住房管理办法》（甬政发〔2007〕89号）<br />
+			　　2、《宁波市城镇居民住房保障家庭收入认定办法》（甬政办发〔2008〕202号）<br />
+			　　3、《关于宁波市市区廉租住房管理实施指导意见》（甬建发〔2008〕132号）<br />
+			　　4、《海曙区廉租住房管理实施意见》(海政〔2008〕37号)<br />
+			　　5、《关于市三区实施廉租住房保障扩面工作有关事项的通知》（甬建发〔2009〕31号）<br />
+			　　6、《关于扩大海曙江东江北三区廉租住房保障范围的通知》（甬建发〔2010〕124号）<br />
+			　　二、保障对象<br />
+			　　（一）申请廉租住房保障的家庭，应当符合下列条件之一：<br />
+			　　1、取得区民政部门签发的《最低生活保障金领取证》或《宁波市城区社会扶助证》或市总工会核发的《特困职工证》（以下简称最低收入家庭）。<br />
+			　　2、申请日前十二个月家庭人均收入在市统计部门公布的上年度市区城镇居民人均可支配收入60％以下的已婚
+			</div>
+			<a href="##" class="dlx1">
+				我已阅读
+			</a>
+		</div>
+	</body>
+</html>

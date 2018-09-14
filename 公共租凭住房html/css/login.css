@@ -1,0 +1,155 @@
+﻿body,h1,h2,h3,p,div,ul,li,img,a,span,i,strong,b,em,dl,dt,dd,input,button,label{ margin:0; padding:0;}
+li{ list-style:none;}
+body{font-family:"微软雅黑" ;}
+a{ text-decoration:none; color:#fff;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #bebebe;}
+ input:-moz-placeholder, textarea:-moz-placeholder {color:#bebebe;　}
+ input::-moz-placeholder, textarea::-moz-placeholder {color:#bebebe;}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#bebebe;}
+
+
+.box{width: 7.5rem;margin: 0 auto;}
+.bs1{width: 100%;display: block;}
+.bs2{overflow: hidden;}
+.bs2_1{width: 33.3333%;float: left;height: 0.8rem;text-align: center;color: #454545;font-size: 0.28rem; background: #e8e8e8;line-height: 0.8rem;}
+.bs2 .active{box-sizing: border-box;border-bottom:4px solid #ff7f47 ; background:#FFFFFF ;}
+.bs3 li{border-bottom: 1px solid #ededed;overflow: hidden;}
+.bs3 img{width: 0.49rem;height: 0.38rem;float: left; margin-top: 0.38rem;margin-left: 0.18rem;}
+.bs3 span{line-height: 1.1rem;width: 5.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 0.28rem;color: #454545;float: left;}
+.bs3 i{font-style: normal;line-height: 1.1rem;float: right;font-size: 0.24rem;color: #9a9a9a;padding-right: 0.3rem;}
+.bs3{display: none;}
+.k{display: block;}
+.dz{width: 7.5rem;display: block;}
+.dz1{position: fixed;bottom: 0;width: 7.5rem;}
+.dz1_1{width: 7.5rem;height: 1rem;background: #f17c15;color: #FFFFFF;font-size: 0.3rem;text-align: center;line-height: 1rem;}
+.dz1_2{height: 0rem;width: 7.5rem;background: rgba(62,62,62,0.75);overflow-y: auto;}
+.dz1_2 li{border-bottom: 1px solid #a6a6a6;overflow: hidden;}
+.dz1_2 li i{width: 0.12rem;height: 0.12rem;background: #FFFFFF;float: left;margin: 0.43rem 0.17rem 0 0.28rem;}
+.dz1_2 li span{width:6.2rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;line-height: 1rem;font-size: 0.28rem;color: #FFFFFF;float: left;}
+.dz1_2 li img{float: right;width: 0.6rem;height: 1rem;}
+.dz1_3{width: 2.05rem;height: 0.35rem;background: url(../images/dz3.png) no-repeat 0 0rem/2.05rem 0.71rem; margin: 0 auto;}
+.box ::-webkit-scrollbar{display:none;}
+
+.gs{width: 7.5rem;height: 2.5rem;display: block;margin-bottom: 0.3rem; }
+ 
+.gs1 li{border-bottom: 1px solid #ededed;overflow: hidden;}
+.gs1 img{width: 0.49rem;height: 0.38rem;float: left; margin-top: 0.38rem;margin-left: 0.18rem;}
+.gs1 span{line-height: 1.1rem;width: 5.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 0.28rem;color: #454545;float: left;}
+.gs1 i{font-style: normal;line-height: 1.1rem;float: right;font-size: 0.24rem;color: #9a9a9a;padding-right: 0.3rem;}
+.gs1{background: #FFFFFF;margin-bottom: 0.25rem;}
+.gs2{width: 6.2rem;height: 0.8rem;background: #ff8112;border-radius: 0.16rem;line-height: 0.8rem;text-align: center;color: #FFFFFF;font-size: 0.3rem;display: block; margin: 0 auto 0.18rem auto;}
+.jd{width: 100%;box-sizing: border-box;padding: 0.51rem 0.37rem 0 0.19rem;}
+.jd1{overflow: hidden;}
+.jd1 img{width: 0.5rem;height: 0.5rem;float: left; margin-right: 0.19rem;}
+.jd1 span{float: left;line-height: 0.5rem;color: #454545;font-size: 0.3rem;}
+.jd1 i{float: right;font-style:normal ;line-height: 0.5rem;color: #666666;font-size: 0.28rem;}
+
+.jd2{padding-top: 0.06rem;border-left: 4px solid #fd9e4a;overflow: hidden; margin-left: 0.23rem;padding-bottom: 0.5rem;}
+.jd2_1{width: 6.25rem;height: 1.85rem;border-radius:0.15rem;background: #FFFFFF;float: right;box-sizing: border-box;}
+.jd2_1 span{width: 5.55rem;height: 0.92rem;line-height: 0.92rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: block;color: #454545;font-size: 0.28rem;padding-left:0.28rem ;}
+.jd2_1 i{font-style: normal;border-top: 1px solid #ededed;display: block;padding-left: 0.28rem;line-height: 0.92rem;color: #ff8112;font-size: 0.28rem;}
+.jd2_1 .red{color:#ff3636 ;}
+.jd li:last-child .jd2{border-left: 0;}
+
+.yx1{width: 100%;height: 2.5rem;display: block;}
+.yx2{padding: 0.31rem 0 0 0.18rem;overflow: hidden;}
+.yx2 li{ margin: 0 0.13rem 0.25rem 0.13rem; background: #FFFFFF;width: 3.3rem;height: 1.26rem;float: left;border-radius:0.08rem ;}
+.yx2 li img{width: 0.82rem;height: 1.26rem;float: left;}
+.yx2_1{width: 2.48rem;height: 100%;padding-right: 0.32rem;float: left;box-sizing: border-box;display: table;}
+.yx2_1 span{display: table-cell;vertical-align: middle;font-size: 0.24rem;color: #666666;}
+.yx2_1 i {color:#ff9a41;font-style: normal;}
+.yx3{width: 6.85rem;height: 0.95rem;line-height: 0.95rem;text-align: center;color: #979797;font-size: 0.26rem; background: #FFFFFF;display: block;margin: 0 auto; margin-bottom: 0.7rem;border-radius:0.08rem;}
+.yxsc{width: 100%;height: 0.9rem;box-sizing: border-box;padding-left: 0.33rem;padding-top: 0.29rem; background: #ff8112; margin-bottom: 0.4rem;}
+.yxsc span{line-height: 0.32rem;font-size: 0.3rem;padding-left: 0.16rem;border-left: 4px solid #FFFFFF;color: #FFFFFF;line-height: 0.32rem;display: block;}
+.yxsc1{line-height: 0.3rem;font-size: 0.24rem;color: #d83838;padding-left: 0.47rem;padding-right: 0.47rem; margin-bottom: 0.5rem;}
+.yxsc2{width: 4.24rem;height: 2.86rem;background: #e9f4ff;box-sizing: border-box;border: 1px dashed #a0ccf8; margin: 0 auto;border-radius:0.08rem ;}
+.yxsc2 img{width: 3.32rem;height: 2.39rem;padding-top: 0.2rem;margin: 0 auto;display: block;}
+.yxsc3{width:100%;height: 0.8rem;line-height: 0.8rem;text-align: center;color: #454545;font-size: 0.3rem;}
+.yxsc4{position: relative;width: 4.24rem;height: 2.86rem; margin: 0 auto;}
+#tt{position: absolute;left: 0.3rem;top: 0.3rem;opacity: 0;}
+.yxsc4{margin-bottom: 0.53rem;}
+.yxsc4 label{width: 4.24rem;height: 2.86rem;background: #e9f4ff;box-sizing: border-box;border: 1px dashed #a0ccf8; margin: 0 auto;border-radius:0.08rem ;position: absolute;left: 0;top: 0;}
+.yxsc4 label img{width: 1.45rem;height: 1.14rem;margin: 0.51rem auto 0.42rem auto;display: block;}
+.yxsc4 label span{width: 1.87rem;height: 0.52rem;border-radius:0.26rem ; background: #A0CCF8;color: #FFFFFF;font-size: 0.24rem;display: block;text-align: center;line-height: 0.52rem;margin: 0 auto;}
+.yxsc4_1{position: absolute;left: 0.45rem;top: 0.2rem;width: 3.32rem;height: 2.39rem;}
+.yxsc5{width: 6.2rem;height: 0.8rem;background: #ff8112;font-size: 0.3rem;color: #fefeff;text-align: center;line-height: 0.8rem;display: block; margin: 0 auto;border-radius: 0.16rem;}
+
+.wt li{border-bottom: 1px solid #ededed;overflow: hidden;}
+.wt span{line-height: 1.1rem;width: 6.2rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 0.28rem;color: #454545;float: left;padding-left: 0.3rem;}
+.wt li img{float: right;width: 0.6rem;height: 1rem;}
+.tw{overflow: hidden;background: #FFFFFF; margin-bottom: 0.02rem;}
+.tw span{width: 1.58rem;height: 0.92rem;text-align: right;line-height: 0.92rem;color: #666666;font-size: 0.26rem;float: left;}
+.tw input{width: 5.92rem;height: 0.92rem;line-height: 0.92rem;color: #666666;font-size: 0.26rem;float: left;border: 0;box-sizing: border-box;padding-left: 0.1rem;padding-right: 0.2rem;outline: none;}
+.tw1{ margin-bottom: 0.21rem;}
+.tw2 span{width: 1.58rem;height: 0.92rem;text-align: right;line-height: 0.92rem;color: #666666;font-size: 0.26rem;float: left;}
+.tw2 input{width: 3.64rem;height: 0.92rem;line-height: 0.92rem;color: #666666;font-size: 0.26rem;float: left;border: 0;box-sizing: border-box;padding-left: 0.1rem;padding-right: 0.2rem;outline: none;}
+.tw2 i{width: 2.28rem;height: 100%;text-align: center;line-height: 0.92rem;font-size: 0.24rem;background: #ffaa5f;color: #FFFFFF;float: left;font-style: normal;}
+.tw2{overflow: hidden;background: #FFFFFF;}
+.tw3{position: relative; margin-bottom: 0.35rem;}
+.tw3 textarea{width: 6.9rem;height: 3.62rem;margin: 0 auto;background: #FFFFFF;border-radius: 0.08rem;display: block;border: 0;outline: none;box-sizing: border-box;padding: 0.28rem 0.57rem;font-size: 0.26rem;color: #666666;line-height: 0.36rem;font-family:"微软雅黑" ;}
+.tw3 img{width: 0.31rem;height: 0.26rem;position: absolute;left: 0.5rem;top: 0.36rem;}
+.tw4{width: 6.2rem;height: 0.8rem;line-height: 0.8rem;text-align: center;border: #A0CCF8;color: #fefeff; font-size: 0.3rem;border-radius: 0.15rem;background: #ff8112;display: block; margin: 0 auto; margin-bottom: 1.27rem;}
+.zx {padding-top: 0.14rem;}
+.zx li{width: 7.2rem; margin: 0 auto;background: url(../images/zx1.jpg) no-repeat 0 0/100%; background-color:#FFFFFF ;border-radius: 0.08rem; margin-bottom: 0.11rem;}
+.zx1{height: 1.09rem;padding: 0.15rem 0.21rem 0 0.1rem;overflow: hidden;}
+.zx1 img{width: 0.8rem;height: 0.8rem;border-radius: 0.4rem;float: left;}
+.zx1 span{line-height: 0.8rem;padding-left: 0.11rem;color: #454545;font-size: 0.3rem;float: left;}
+.zx1 i{line-height: 0.8rem;float: right;font-style: normal;font-size: 0.24rem;color: #666666;}
+.zx2{padding-bottom: 0.11rem;background: url(../images/zx2.png) no-repeat 0 bottom/100%;}
+.zx2_1{overflow: hidden;position: relative;}
+.zx2_1 img{width: 0.56rem;height: 0.56rem;padding-left: 0.2rem;padding-right: 0.39rem;vertical-align: middle;position: absolute;top: 50%;margin-top: -0.28rem;}
+.zx2_1 p{width: 6.04rem;border-bottom: 1px solid #ededed;line-height: 0.34rem;font-size: 0.26rem;color: #454545;padding: 0.28rem 0 0.22rem 0; margin-left: 1.11rem; box-sizing: border-box;padding-right: 0.28rem;}
+.zx2_2{overflow: hidden;position: relative;}
+.zx2_2 img{width: 0.56rem;height: 0.56rem;padding-left: 0.2rem;padding-right: 0.39rem;vertical-align: middle;position: absolute;top: 50%;margin-top: -0.28rem;}
+.zx2_2 p{width: 6.04rem;line-height: 0.34rem;font-size: 0.26rem;color: #454545;padding: 0.28rem 0 0.22rem 0; margin-left: 1.11rem; box-sizing: border-box;padding-right: 0.28rem;}
+.zx2_2 .red{color: #f26464;}
+.zx3{width:1.3rem;height: 1.3rem;position: fixed;right: 0.15rem;bottom: 0.23rem; background: url(../images/wen.png) no-repeat 0 0/100%;text-align: center;line-height: 1.3rem;font-size: 0.4rem;color: #ffaa5f;display: block;}
+
+.dln{width: 7.5rem;height: 2.5rem;display: block; margin-bottom: 0.27rem;}
+
+.dln1{overflow: hidden;background: #FFFFFF; margin-bottom: 0.16rem;}
+.dln1 span{float:left;width: 1.44rem;text-align: right;line-height: 1rem;color: #666666;font-size: 0.26rem;float: left;}
+.dln1 input{width: 6.06; float: left;outline: none;border: 0;box-sizing: border-box;padding: 0 0.2rem;line-height: 1rem;color: #666666;font-size: 0.26rem;}
+.dln2{overflow: hidden;background: #FFFFFF; margin-bottom: 0.16rem;}
+.dln2 span{float:left;width: 1.44rem;text-align: right;line-height: 1rem;color: #666666;font-size: 0.26rem;float: left;}
+.dln2 input{width:3.69rem; float: left;outline: none;border: 0;box-sizing: border-box;padding: 0 0.2rem;line-height: 1rem;color: #666666;font-size: 0.26rem;}
+.dln2 i{width: 2.37rem;text-align: center;line-height: 1rem;color: #FFFFFF;background: #FFAA5F;float: left;font-style: normal;font-size: 0.26rem;}
+
+.dln3{width: 6.2rem;height: 0.8rem;background: #FF8112;border-radius: 0.15rem;margin: 0 auto;margin-top: 0.5rem;overflow: hidden;display: block;font-size: 0.3rem;color: #fefeff;text-align: center;line-height: 0.8rem;}
+
+.dl{width: 6.9rem;height: 2.63rem;box-sizing: border-box;padding-bottom: 0.16rem;background: url(../images/dl1.jpg) no-repeat 0 bottom/100%;padding-left: 0.44rem;padding-top: 0.23rem; background-color:#FFFFFF ; margin: 0 auto;border-radius: 0.08rem; margin-bottom: 0.5rem;}
+.dl1{overflow: hidden;border-bottom: 1px solid #ededed; margin-bottom: 0.14rem;padding-bottom: 0.14rem;}
+.dl1 img{float: left;float: left;width: 0.55rem;height: 0.9rem;}
+.dl1 input{width: 5.48rem;line-height: 0.9rem;float: left;border: 0;box-sizing: border-box;padding: 0 0.14rem;font-size: 0.28rem;outline: none;color: #666666;}
+.dl2{overflow: hidden;}
+.dl2 img{float: left;float: left;width: 0.55rem;height: 0.9rem;}
+.dl2 input{width: 5.48rem;line-height: 0.9rem;float: left;border: 0;box-sizing: border-box;padding: 0 0.14rem;font-size: 0.28rem;outline: none;color: #666666;}
+.dl3{width: 6.2rem;height: 0.8rem;background: #FF8112;border-radius: 0.15rem;margin: 0 auto;overflow: hidden;display: block;font-size: 0.3rem;color: #fefeff;text-align: center;line-height: 0.8rem; margin-bottom:0.41rem;}
+.dl4{width: 6.2rem;margin: 0 auto;overflow: hidden;}
+.dl4_1{float: left;color: #939393;font-size: 0.28rem;}
+.dl4_2{float: right;color: #ff8812;font-size: 0.28rem;}
+.dl4_2 img{margin-top: 0.06rem;width:0.25rem;height: 0.28rem;}
+.dlx{width: 7.1rem;margin: 0 auto;min-height: 9.2rem;box-sizing: border-box;padding: 0.3rem 0.25rem 0.41rem 0.25rem;line-height: 0.42rem;font-size: 0.26rem;color: #666666;background: url(../images/dlx.png) no-repeat 0 bottom/100%;background-color:#FFFFFF ;border-radius: 0.1rem;}
+.dlx1{width: 6.2rem;height: 0.8rem;background: #FF8112;border-radius: 0.15rem;margin: 0 auto;margin-top: 0.43rem;overflow: hidden;display: block;font-size: 0.3rem;color: #fefeff;text-align: center;line-height: 0.8rem; margin-bottom: 0.43rem;}
+
+.lx{width: 7.5rem;height: 2.5rem;display: block; margin-bottom: 0.31rem;}
+.lx1{width: 6.96rem;height: 1.87rem;border-radius: 0.08rem; background: #FFFFFF;box-shadow: 0 0 10px #eaeaea; margin: 0 auto;display: block; margin-bottom: 0.31rem;}
+.lx1_1{float: left;width: 1.98rem;height: 1.87rem;border-radius:0.08rem 0 0 0.08rem ;}
+.lx1 span{line-height: 1.87rem;padding-left: 0.37rem;font-size: 0.3rem;color: #454545;}
+.lx1_2{width: 0.61rem;height: 1.87rem;float: right;}
+
+.gr{width: 100%;height: 2.5rem;background: url(../images/gr_bg.jpg) no-repeat 0 0/100%; padding-top: 0.4rem;box-sizing: border-box;padding-left: 0.49rem;overflow: hidden;}
+.gr1{width: 1.71rem;height: 1.71rem; background: rgba(255,255,255,0.5);border-radius:50%;float: left;}
+.gr1 img{width: 1.5rem;height: 1.5rem;border-radius: 50%;padding-left: 0.11rem;padding-top: 0.11rem;}
+.gr2{float: left;padding-top: 0.36rem;padding-left: 0.31rem;}
+.gr2 span{font-size: 0.36rem;line-height: 0.6rem;color: #ffffff;display: block;}
+.gr2 i{font-size: 0.3rem;line-height: 0.4rem;color: #ffffff;display: block;font-style: normal;}
+
+.gr3{width: 100%;height: 1rem;overflow: hidden;margin-bottom:0.19rem;display: block; background: #FFFFFF;}
+.gr3_1{width: 0.88rem;height: 1rem;float: left;}
+.gr3_2{width: 0.71rem;height: 1rem;float: right;}
+.gr3 span{float: left;line-height: 1rem;color: #454545;font-size: 0.28rem;}
+.gr4{width: 6.2rem;height: 0.8rem;background: #FF8112;border-radius: 0.15rem;margin: 0 auto;overflow: hidden;display: block;font-size: 0.3rem;color: #fefeff;text-align: center;line-height: 0.8rem; margin-bottom:0.41rem; margin-top: 1rem;}
